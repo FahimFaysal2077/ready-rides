@@ -1,0 +1,70 @@
+.header {
+    position: absolute;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.logo {
+    display: flex;
+}
+.logo img {
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.logo h1 {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-weight: 900;
+    font-size: 60px;
+}
+.nav{
+    position: absolute;
+    top: 70%;
+    left: 240%;
+    transform: translate(-50%, -50%);
+}
+.nav li{
+    display: inline;
+    margin-left: 50px;
+  }
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+.nav a:hover {
+    text-decoration: none;
+}
+.btn-book {
+    border: none;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-book {
+    background-color: #FF6E40; 
+}
+.btn-book:hover {
+    text-decoration: none;
+    background-color: #5d3326;
+    color: white;
+}
+/* .user-name {
+    font-weight: 700;
+    font-size: 22px;
+    color: chocolate;
+    position: absolute;
+    left: 148%;
+    transform: translate(-50%, -100%);
+
+} */
+/* .button {
+    position: absolute;
+    left: 148%;
+    transform: translate(-50%, -50%)
+} */

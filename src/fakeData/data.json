@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "vehicleName": "BIKE",
+    "image": "https://i.ibb.co/6wNPY0N/bike.png",
+    "location": "Kipling"
+  }, {
+    "id": 2,
+    "vehicleName": "CAR",
+    "image": "https://i.ibb.co/9hfsgNT/car.png",
+    "location": "Carberry"
+  }, {
+    "id": 3,
+    "vehicleName": "BUS",
+    "image": "https://i.ibb.co/sFCv4P1/bus.png",
+    "location": "Sullivan"
+  }, {
+    "id": 4,
+    "vehicleName": "TRAIN",
+    "image": "https://i.ibb.co/X5HRHCR/train.png",
+    "location": "Redwing"
+  }]
