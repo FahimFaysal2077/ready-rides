@@ -1,0 +1,10 @@
+.destination {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.destination-vehicle {
+    background: #FF6E40;
+    border-radius: 10px;
+}

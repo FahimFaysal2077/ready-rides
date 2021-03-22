@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import { useHistory } from 'react-router';
+import { useHistory } from 'react-router-dom';
 import './Vehicle.css';
 
 const Vehicle = (props) => {
@@ -8,7 +8,7 @@ const Vehicle = (props) => {
     const history = useHistory();
 
     const handleClick = (id) => {
-        const url = `/vehicle/${id}`;
+        const url = `/destination/${id}`;
         history.push(url);
     }
     return (

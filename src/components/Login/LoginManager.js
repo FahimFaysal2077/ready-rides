@@ -60,8 +60,8 @@ export const handleGoogleSingIn = () => {
       })
   }
 
-  export const createUserWithEmailAndPassword = (name, email, password) => {
-    return firebase.auth().createUserWithEmailAndPassword(email, password)
+  export const createUserWithEmailAndPassword = (name, email, password, confirmPassword) => {
+    return firebase.auth().createUserWithEmailAndPassword(email, password, confirmPassword)
     .then(result => {
       const newUserInfo = result.user;
       newUserInfo.error = '';
@@ -77,8 +77,8 @@ export const handleGoogleSingIn = () => {
     });
   }
 
-  export const signInWithEmailAndPassword = (email, password) => {
-    return firebase.auth().signInWithEmailAndPassword(email, password)
+  export const signInWithEmailAndPassword = (email, password, confirmPassword) => {
+    return firebase.auth().signInWithEmailAndPassword(email, password, confirmPassword)
     .then(result => {
       const newUserInfo = result.user;
       newUserInfo.error = '';

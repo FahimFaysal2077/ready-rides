@@ -31,7 +31,7 @@ function App() {
           <PrivateRoute path="/destination">
             <Destination />
           </PrivateRoute>
-          <PrivateRoute path="/vehicle/:id">
+          <PrivateRoute path="/destination/:id">
             <Destination />
           </PrivateRoute>
           <Route exact path="/">

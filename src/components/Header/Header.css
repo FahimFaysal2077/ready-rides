@@ -20,6 +20,7 @@
 }
 .nav{
     position: absolute;
+    width: 680px;
     top: 70%;
     left: 240%;
     transform: translate(-50%, -50%);
@@ -54,17 +55,3 @@
     background-color: #5d3326;
     color: white;
 }
-/* .user-name {
-    font-weight: 700;
-    font-size: 22px;
-    color: chocolate;
-    position: absolute;
-    left: 148%;
-    transform: translate(-50%, -100%);
-
-} */
-/* .button {
-    position: absolute;
-    left: 148%;
-    transform: translate(-50%, -50%)
-} */

@@ -28,10 +28,7 @@ const Header = () => {
                         <Link to="/contact">Contact</Link>
                     </li>
                     <li>
-                    {
-                        loggedInUser === true ? <Link>{loggedInUser.name}</Link> :
-                        <Link className="btn-book" to="/login">Login</Link>
-                    }
+                        <Link className="btn-book" to="/login">{loggedInUser?.email? loggedInUser.name || loggedInUser.displayName || loggedInUser.email: "Login"}</Link>
                     </li>
 
                 </ul>
