@@ -24,3 +24,10 @@ READY RIDES
 
 #### Technologies:
 JavaScript(ES6), React.Js, Node.Js, Firebase Authentication, React Bootstrap, Private Route, React Router, etc.
+
+
+## Resume Link:
+ https://ready-rides-bangladesh.web.app/
+ 
+## Linkedin Link:
+ https://ready-rides-bangladesh.web.app/
